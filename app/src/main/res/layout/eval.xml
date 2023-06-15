@@ -22,6 +22,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/selectRest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="맛집 이름"
@@ -29,6 +30,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/selectLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -46,7 +48,8 @@
             android:id="@+id/score"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +61,8 @@
         <EditText
             android:id="@+id/review"
             android:layout_width="200dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/submt"
